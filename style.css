@@ -1,3 +1,14 @@
 #header {
-  color: hotpink;
+  background:#999;
+}
+body {
+  background-color:#9999;
+  color:pink;
+}
+.primary {
+  background-color: yellow;
+}
+
+h2 {
+  background-color: gold;
 }
