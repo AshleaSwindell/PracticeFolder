@@ -1,11 +1,78 @@
 
 body {
   background-color:#9999;
-  color:pink;
+  color:black;
+}
+
+h1 {
+  color: black;
+  font-family: tahoma;
+  clear: both;
 }
 
 h2 {
   background-color: gold;
+  color: hotpink;
 }
+
+h3 {
+  color: limegreen;
+  background: blue;
+}
+
 .primary {
-  background-color: yellow;
+    color: grey;
+}
+.row {
+
+}
+.col {
+  float: left;
+  width: 30%;
+  margin: 5px;
+  padding: 2px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+
+}
+.box {
+  width: 85px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 10px 10px 20px red,
+  20px 20px 10px rgba(0, 0, 255, 0.5);
+  cursor: pointer;
+}
+.box:hover {
+  background-color: green;
+  color: grey;
+}
+.box a {
+  position: relative;
+}
+.box a:active {
+  top: 6px;
+}
+nav {
+  margin: 0;
+}
+#nav {
+  background-color: green;
+  color: white;
+
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding:10px;
+}
+nav ul li a {
+  color: white;
+  font-size: 75px;
+
+}
